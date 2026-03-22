@@ -17,4 +17,4 @@ It covers all essential concepts required to design beautiful and responsive web
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/css-one-shot.git
+   https://github.com/DhananjayMukhiya/CSS-One-Shot.git
