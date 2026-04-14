@@ -1,0 +1,36 @@
+/* .thirdpara{
+    background-color: orange;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+/* selcter */
+
+/* element, id, class, group, universal */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    background-color: red;
+}
+
+p{
+    background-color: chocolate;
+}
+
+#firstPara{
+    background-color: aqua;
+}
+
+.span{
+    background-color: brown;
+}
+
+h1, #firstpara, .span, div{
+    color:violet;
+}
