@@ -1,0 +1,18 @@
+:root {
+    --primary-color: black;
+}
+
+h1 {
+    color: blue;
+    text-shadow: 10px 10px 10px black;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    /* box-shadow: 10px 10px black; */
+    /* box-shadow: 10px 10px 20px black; */
+    /* box-shadow: 10px 10px 20px 5px black; */
+    box-shadow: inset 10px 10px 20px 5px var(--primary-color);
+}

@@ -1,0 +1,52 @@
+#img1{
+    float: left;
+    /* float: right; */
+    width: 200px;
+}
+#img2{
+    float: right;
+}
+#img3{
+    float: right;
+    width: 191px;
+}
+#img4{
+    float: right;
+    clear: right;
+
+}
+
+.parent{
+    border: 3px solid black;
+    overflow: auto;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    float: left;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(14, 95, 3);
+    float: left;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(152, 8, 163);
+    float: left;
+}
+
+.overflow{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    color: #ff0000;
+    margin-top: 10px;
+    overflow: auto;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+}

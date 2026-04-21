@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 90px 10px rgba(224, 224, 224, 0.6);
+}
+
+.box1{
+    background-color: rgb(251, 255, 0);
+    transition: all 1s ease-out;
+}
+
+.box1:hover{
+    transform: rotateX(45deg);
+}
+.box2{
+    background-color: rgb(255, 145, 0);
+    transition: all 1s ease-out;
+}
+
+.box2:hover{
+    transform: rotateY(45deg);
+}
+.box3{
+    background-color: rgb(255, 179, 79);
+    transition: all 1s ease-out;
+}
+
+.box3:hover{
+    transform: rotateZ(45deg);
+}
+.box4{
+    background-color: rgb(253, 220, 177);
+    transition: all 1s ease-out;
+}
+
+.box4:hover{
+    transform: translateX(200px);
+}
+.box5{
+    background-color: rgb(255, 255, 255);
+    transition: all 1s ease-out;
+}
+.box5:hover{
+    transform: translateY(200px);
+}
+
+.box6{
+    background-color: rgb(255, 0, 0);
+    transition: all 1s ease-out;
+}
+.box6:hover{
+    transform: perspective(500px) translateZ(200px);
+}
+
+.box7{
+    background-color: rgb(255, 74, 74);
+    transition: all 1s ease-out;
+}
+.box7:hover{
+    transform: scaleX(1.5);
+}
+.box8{
+    background-color: rgb(43, 255, 0);
+    transition: all 1s ease-out;
+}
+.box8:hover{
+    transform: scaleY(1.5);
+}
+.box9{
+    background-color: rgb(0, 238, 255);
+    transition: all 1s ease-out;
+}
+.box9:hover{
+    transform: perspective(500px) scaleZ(2) rotateY(45deg);
+}

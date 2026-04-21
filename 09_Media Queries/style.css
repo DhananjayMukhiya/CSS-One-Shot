@@ -1,0 +1,30 @@
+/* .box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+@media (min-width:300px) and (max-width: 500px) {
+    .box{
+        background-color: green;
+    }
+} */
+
+
+.container{
+    border: 2px solid black;
+
+    display: flex;
+}
+
+@media (max-width:1200px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
